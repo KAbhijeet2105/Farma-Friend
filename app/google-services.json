@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "521081157670",
+    "firebase_url": "https://farma-friend.firebaseio.com",
+    "project_id": "farma-friend",
+    "storage_bucket": "farma-friend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521081157670:android:67d2fe0807aa47a9",
+        "android_client_info": {
+          "package_name": "india.abhijeet.k.farmafriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521081157670-4sgc53trvogunbnskbekjn3s86cenpl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB03XU-yUjtdFIxq2_VUr6fbSiZNuQ_gk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

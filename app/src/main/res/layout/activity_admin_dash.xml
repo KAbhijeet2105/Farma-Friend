@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".AdminDash">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:onClick="goUserlist"
+
+                >
+
+
+                <TextView
+
+                    android:id="@+id/txt_RequestedForms_AdminDash"
+                    android:text="Requested Forms"
+
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content" />
+
+                <TextView
+
+                    android:text="Forms submitted by farmers."
+                    android:layout_below="@id/txt_RequestedForms_AdminDash"
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:onClick="logOutAdmin"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_AdminDash_Logout"
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Logout"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp" />
+
+                <TextView
+
+                    android:text="Logs out from this application"
+
+                    android:layout_below="@id/txt_AdminDash_Logout"
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

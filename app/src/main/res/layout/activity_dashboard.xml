@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard">
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="I am an Admin"
+        android:textColor="#ffffff"
+        android:onClick="goAdmin"
+
+        android:background="@color/colorPrimary"
+        android:textSize="40sp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am a Farmer"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+
+        android:onClick="goUser"
+
+        android:textSize="40sp"
+        android:layout_weight="1"
+        />
+
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:background="@color/colorPrimaryDark"
+         android:textColor="#ffffff"
+        android:onClick="logout"
+
+        />
+
+
+
+</LinearLayout>

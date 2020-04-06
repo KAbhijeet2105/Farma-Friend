@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FarmarDash">
+
+
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+
+
+             <RelativeLayout
+                 android:layout_marginBottom="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/colorPrimary"
+                 >
+
+
+                 <TextView
+
+                     android:id="@+id/txt_Fill_lavani_Form"
+                     android:text="Fill The Form"
+
+                     android:onClick="goForm"
+                     android:padding="8dp"
+                     android:layout_margin="8dp"
+                     android:textColor="#ffffff"
+                     android:textSize="40sp"
+                     android:gravity="center"
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content" />
+
+                 <TextView
+
+                     android:text="Fill your lavani form here"
+
+                     android:layout_below="@id/txt_Fill_lavani_Form"
+                     android:padding="8dp"
+                     android:layout_margin="8dp"
+                     android:textColor="#ffffff"
+                     android:textSize="20sp"
+                     android:gravity="center"
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content" />
+
+
+             </RelativeLayout>
+
+
+
+
+             <RelativeLayout
+                 android:layout_marginBottom="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/colorPrimary"
+                 android:onClick="goStatus"
+                 >
+
+
+
+                 <TextView
+                     android:id="@+id/txt_Farmer_Form_status"
+
+                     android:text="Status"
+
+                     android:padding="8dp"
+                     android:layout_margin="8dp"
+                     android:textColor="#ffffff"
+                     android:textSize="40sp"
+                     android:gravity="center"
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content" />
+
+                 <TextView
+
+                     android:text="Check your form status here"
+
+                     android:layout_below="@id/txt_Farmer_Form_status"
+                     android:padding="8dp"
+                     android:layout_margin="8dp"
+                     android:textColor="#ffffff"
+                     android:textSize="20sp"
+                     android:gravity="center"
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content" />
+
+
+
+
+
+
+             </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+             <RelativeLayout
+                 android:layout_marginBottom="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/colorPrimary"
+                 android:onClick="farmer_logout"
+                 >
+
+
+                 <TextView
+                     android:id="@+id/txt_Farmer_Form_Logout"
+
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:padding="8dp"
+                     android:text="Logout"
+                     android:textColor="#ffffff"
+
+                     android:textSize="40sp" />
+
+                 <TextView
+
+                     android:text="Logs out from this application"
+
+                     android:layout_below="@id/txt_Farmer_Form_Logout"
+                     android:padding="8dp"
+                     android:layout_margin="8dp"
+                     android:textColor="#ffffff"
+                     android:textSize="20sp"
+                     android:gravity="center"
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content" />
+
+
+
+
+
+
+             </RelativeLayout>
+
+
+
+
+
+
+             <RelativeLayout
+                 android:layout_marginBottom="10dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@color/colorPrimary"
+                 android:onClick="goPrivacy"
+
+                 >
+
+
+                 <TextView
+                     android:id="@+id/txt_Farmer_PrivacyPolicyt"
+
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:padding="8dp"
+                     android:text="Privacy Policy"
+                     android:textColor="#ffffff"
+
+                     android:textSize="40sp" />
+
+                 <TextView
+
+                     android:text="Privacy Policy and Terms and Conditions"
+
+                     android:layout_below="@id/txt_Farmer_PrivacyPolicyt"
+                     android:padding="8dp"
+                     android:layout_margin="8dp"
+                     android:textColor="#ffffff"
+                     android:textSize="20sp"
+                     android:gravity="center"
+                     android:layout_width="match_parent"
+
+                     android:layout_height="wrap_content" />
+
+
+
+
+
+
+             </RelativeLayout>
+
+
+
+
+
+
+
+
+         </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+     </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Farmar_Form_1">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/txtFarmerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:layout_margin="3dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/txtFarmerAddress"
+                android:inputType="textMultiLine"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R.S.  no./ Gat no :"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/txtFarm_GatNo"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name of Land:"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/txtFarmLandName_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Area of land:"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="numberDecimal"
+                android:id="@+id/txtFarmLandArea"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type of Sugarcane:"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/txt_SugarcaneType"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date :"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/lbl_Farmer_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:editable="false"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Location :"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/lbl_Farmer_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:editable="false"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="8dp"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="bold"
+                android:textColor="#FF3031"
+                android:text="Please Select image of your Farm and Satbara."
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Select Images"
+                android:onClick="FarmImageBtn"
+
+                />
+
+            <android.support.v7.widget.AppCompatImageView
+
+                android:id="@+id/Imgvw_Farmer_FarmImg"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="8dp"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text=" Image of 7/12 of your farm."
+                />
+
+
+
+
+
+            <android.support.v7.widget.AppCompatImageView
+
+                android:id="@+id/Imgvw_Farmer_SatBaraImage"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+
+            >
+
+           <android.support.v7.widget.AppCompatCheckBox
+               android:id="@+id/chkBox_FarmerForm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:text="I am responsible for all the above information."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+            android:layout_margin="8dp"
+            >
+
+           <TextView
+               android:textSize="26sp"
+               android:background="@color/colorPrimary"
+               android:textColor="#ffffff"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="Submit"
+               android:onClick="submitForm"
+               />
+
+
+       </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
